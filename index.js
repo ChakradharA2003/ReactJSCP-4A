@@ -3,7 +3,7 @@ import {Component} from 'react'
 import './index.css'
 
 class ClickCounter extends Component {
-  state: {count: 0}
+  state= {count: 0}
 
   onIncrement = () => {
     this.setState(prevState => ({count: prevState.count + 1}))
